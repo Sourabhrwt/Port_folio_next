@@ -26,7 +26,7 @@ const Navbar = () => {
       setNavBg("#ecf0f3");
       setLinkColor("#1f2937");
     }
-  }, []);
+  }, [router.asPath]);
 
   const handleNav = () => {
     setNav(!nav);

@@ -42,11 +42,11 @@ const Contact = () => {
                   <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                     <AiOutlineMail />
                   </div>
-                  <Link href="/resume">
+                  <a href="Resume.pdf" download="Resume.pdf">
                     <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                       <BsFillPersonLinesFill />
                     </div>
-                  </Link>
+                  </a>
                 </div>
               </div>
             </div>
